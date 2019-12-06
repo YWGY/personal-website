@@ -1,10 +1,13 @@
 import React from "react";
+import Login from "./containers/login";
+import Register from "./containers/register";
 
 class App extends React.Component{
     render() {
         return (
             <div>
-                App Page
+                <Login />
+                <Register />
             </div>
         )
     }
