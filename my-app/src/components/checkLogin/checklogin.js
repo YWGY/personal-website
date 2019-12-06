@@ -6,15 +6,15 @@ import {withRouter} from "react-router-dom";
 class CheckLogin extends React.Component{
     componentDidMount() {
         //check user can complete the task or not
-        // if(filterCheck.indexOf(this.props.location.pathname) > -1) {
-        //     return;
-        // }
-        axios.get("xxxxx")
+        if(filterCheck.indexOf(this.props.location.pathname) > -1) {
+            return;
+        }
+        axios.get("/user/info")
         .then(res => {
             if(res.status === 200) {
                 if(res.data.code === 0){
                 }else{
-                this.props.history.push("/Login");
+                this.props.history.push("/login");
             }
         }})
     }
