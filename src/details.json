@@ -1,0 +1,15 @@
+{
+  "aboutme": {
+    "name": "Weiguiyun Yang",
+    "summary": "Welcome to my place"
+  },
+  "experience": {
+    "year": "2018",
+    "location": "Brisbane",
+    "company": "JR Solution"
+  },
+  "skill": {
+    "frontend": "JavaScript, React, React-Redux, CSS, HTML",
+    "backend": "JavaScript, C#, Python"
+  }
+}

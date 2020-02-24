@@ -1,0 +1,31 @@
+.content {
+  margin: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
+  background-color: #ececec;
+}
+
+.h1 {
+}
+
+.h2 {
+  animation-iteration-count: infinite;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: black;
+}
+
+.container .buttons {
+  padding: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.container .buttons .b1 {
+}
+
+.container .buttons .b2 {
+}
