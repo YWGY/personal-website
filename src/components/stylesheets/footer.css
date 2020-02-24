@@ -1,0 +1,14 @@
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.curtime {
+  padding: 10px;
+}
+
+.link {
+  padding: 10px;
+}

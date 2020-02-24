@@ -1,8 +1,7 @@
 import React from "react";
-import Details from "../../details.json";
 
 function Aboutme() {
-  return <section>about me</section>;
+  return <section className="aboutme"></section>;
 }
 
 export default Aboutme;

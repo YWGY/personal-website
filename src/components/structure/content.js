@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import Aboutme from "../sections/aboutme";
+import Project from "../sections/project";
 import "../stylesheets/content.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -22,6 +24,8 @@ function Content() {
             </Button>
           </div>
         </div>
+        <Aboutme />
+        <Project />
       </div>
     </div>
   );

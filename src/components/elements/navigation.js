@@ -1,8 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Form, FormControl, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Details from "../../details.json";
-
+// import Details from "../../details.json";
 import "../sections/experience";
 
 class Navigation extends React.Component {

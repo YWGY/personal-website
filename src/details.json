@@ -1,7 +1,8 @@
 {
   "aboutme": {
     "name": "Weiguiyun Yang",
-    "summary": "Welcome to my place"
+    "email": "weiguiyun.yang@outlook.com",
+    "linkedin": "linkedin.com/in/julie-yang-brisbane"
   },
   "experience": {
     "year": "2018",
@@ -9,7 +10,12 @@
     "company": "JR Solution"
   },
   "skill": {
-    "frontend": "JavaScript, React, React-Redux, CSS, HTML",
-    "backend": "JavaScript, C#, Python"
+    "front-End Libraries/Framework": "JavaScript, React, React-Native, Redux, Redux-Saga, jQuery, Ant Design, Bootstrap, Flexbox, Responsive design.",
+    "Back-End": "Node.js, C#.Net, MVC framework.",
+    "Database Management": "MySQL, MongoDB.",
+    "Software & Project Management": "Git, Github, Gitlab, Bitbucket, AWS, Heroku, Trello, Jira.",
+    "Methodologies": "Agile, Scrum.",
+    "Tools": "SAS, Visual Studio, Visual Studio Code.",
+    "Others": "HTML5, CSS3, JSON."
   }
 }
