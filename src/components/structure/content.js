@@ -1,7 +1,9 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import Aboutme from "../sections/aboutme";
+import Experience from "../sections/experience";
 import Project from "../sections/project";
+import Skill from "../sections/skill";
 import "../stylesheets/content.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -24,8 +26,12 @@ function Content() {
             </Button>
           </div>
         </div>
-        <Aboutme />
-        <Project />
+      </div>
+      <div className="section">
+        <Aboutme className="section sec" />
+        <Experience className="section sec" />
+        <Skill className="section sec" />
+        <Project className="section sec" />
       </div>
     </div>
   );

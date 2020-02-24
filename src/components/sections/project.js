@@ -1,14 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../stylesheets/project.css";
 
 function Project() {
   return (
     <section className="project">
-      <Container>
+      <h2>My Project</h2>
+      <Container className="container">
         <Row>
           <Col xs>
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -21,7 +23,7 @@ function Project() {
             </Card>
           </Col>
           <Col xs={{ order: 12 }}>
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
@@ -34,7 +36,7 @@ function Project() {
             </Card>
           </Col>
           <Col xs={{ order: 1 }}>
-            <Card style={{ width: "18rem" }}>
+            <Card>
               <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>

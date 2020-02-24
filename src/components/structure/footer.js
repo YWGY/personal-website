@@ -9,8 +9,8 @@ function Footer() {
     <footer className="footer">
       <div className="curtime">{currentTime}</div>
       <div className="link">
-        <div className="email">Email: {Details.aboutme.email}</div>
-        <div className="linkedin">Linkedin: {Details.aboutme.linkedin}</div>
+        <div className="email">Email: {Details.link.email}</div>
+        <div className="linkedin">Linkedin: {Details.link.linkedin}</div>
       </div>
     </footer>
   );

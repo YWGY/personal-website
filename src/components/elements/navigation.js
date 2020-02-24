@@ -11,9 +11,10 @@ class Navigation extends React.Component {
         <Navbar.Brand href="#home">Welcome</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#aboutme">About me</Nav.Link>
           <Nav.Link href="#experience">Experience</Nav.Link>
           <Nav.Link href="#skill">Skill</Nav.Link>
-          <Nav.Link href="#aboutme">About me</Nav.Link>
+          <Nav.Link href="#project">Project</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
