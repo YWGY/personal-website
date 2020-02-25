@@ -7,6 +7,7 @@ function Aboutme() {
   return (
     <section className="aboutme">
       <h2>About Me</h2>
+      <img src="" alt="myprofile"></img>
       <div className="intro">
         <li>{Details.aboutme.intro1}</li>
         <li>{Details.aboutme.intro2}</li>
