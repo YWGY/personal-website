@@ -3,21 +3,10 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-}
-
-.container {
-  height: 100%;
-  position: relative;
-  z-index: 1;
   text-align: center;
-  /* background-color: #ececec; */
-  color: black;
 }
 
 .section {
   padding: 3rem 1.5rem;
-}
-
-.section .sec {
-  padding: 3rem 1.5rem;
+  min-height: 100vh;
 }

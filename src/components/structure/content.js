@@ -10,14 +10,20 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Content() {
   return (
     <div className="content">
-      <div className="container">
+      <div className="section">
         <Home />
       </div>
       <div className="section">
-        <Aboutme className="section sec" />
-        <Experience className="section sec" />
-        <Skill className="section sec" />
-        <Project className="section sec" />
+        <Aboutme />
+      </div>
+      <div className="section">
+        <Experience />
+      </div>
+      <div className="section">
+        <Skill />
+      </div>
+      <div className="section">
+        <Project />
       </div>
     </div>
   );

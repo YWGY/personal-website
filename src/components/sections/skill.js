@@ -7,7 +7,7 @@ function Skill() {
   return (
     <section id="skill">
       <h2>My Skill</h2>
-      <div className="slist">
+      <div className="scard">
         <Card>
           <Card.Header>Featured</Card.Header>
           <ListGroup variant="flush">

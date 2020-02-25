@@ -1,9 +1,22 @@
+#home {
+  height: 100%;
+  width: 100%;
+}
+
+.hcontainer {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: black;
+}
+
 .h2 {
   animation-iteration-count: infinite;
 }
 
-.container .buttons {
-  padding: 20px;
+.hcontainer .buttons {
+  padding: 6rem 1.5rem;
   display: inline-flex;
   justify-content: center;
 }

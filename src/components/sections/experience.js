@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheets/experience.css";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Details from "../../details.json";
 
 function Experience() {
@@ -8,11 +9,10 @@ function Experience() {
     <section id="experience">
       <div className="timeline">
         <h2>My Experience</h2>
-        <Container className="container">
+        <Container className="econtainer">
           <Row>
             <Col xs>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                   <Card.Title>
                     <h3>{Details.experience.job1.position}</h3>
@@ -34,7 +34,6 @@ function Experience() {
             </Col>
             <Col>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
                   <Card.Title>
                     <h3>{Details.experience.job1.position}</h3>
