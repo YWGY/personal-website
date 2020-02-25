@@ -1,11 +1,10 @@
 import React from "react";
-import "react-vertical-timeline-component/style.min.css";
 import "../stylesheets/aboutme.css";
 import Details from "../../details.json";
 
 function Aboutme() {
   return (
-    <section className="aboutme">
+    <section id="aboutme">
       <h2>About Me</h2>
       <img src="" alt="myprofile"></img>
       <div className="intro">

@@ -2,11 +2,10 @@ import React from "react";
 import { Card, ListGroup } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../stylesheets/skill.css";
-// import Details from "../../details.json";
 
 function Skill() {
   return (
-    <section className="skill">
+    <section id="skill">
       <h2>My Skill</h2>
       <div className="slist">
         <Card>

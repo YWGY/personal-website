@@ -2,7 +2,7 @@ h2 {
   text-align: center;
 }
 
-.aboutme {
+#aboutme {
   display: block;
   padding: 10px 50px 10px 50px;
   margin: 0 50px 50px 50px;

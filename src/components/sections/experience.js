@@ -5,7 +5,7 @@ import Details from "../../details.json";
 
 function Experience() {
   return (
-    <section className="experience">
+    <section id="experience">
       <div className="timeline">
         <h2>My Experience</h2>
         <Container className="container">

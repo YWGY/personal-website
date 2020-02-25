@@ -4,7 +4,7 @@ import "../stylesheets/project.css";
 
 function Project() {
   return (
-    <section className="project">
+    <section id="project">
       <h2>My Project</h2>
       <ControlledCarousel />
     </section>
