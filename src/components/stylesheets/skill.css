@@ -1,9 +1,25 @@
 #skill {
   display: block;
   text-align: center;
-  padding: 50px;
+  padding: 50px 0 0 0;
 }
 
-.scard {
-  padding: 20px;
+.sh1 {
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid #343a40;
+  overflow: hidden;
+}
+
+.sbox {
+  padding: 5px;
+  display: flex;
+}
+
+.sbox .left {
+  font-weight: bold;
+}
+
+.sbox .right {
 }

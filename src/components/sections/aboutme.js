@@ -10,7 +10,7 @@ function Aboutme() {
       <div className="atitle">
         <h1>About Me</h1>
         <div className="aimg">
-          <img className="circleimg" src={imgURL} />
+          <img className="circleimg" src={imgURL} alt="circleimg" />
         </div>
         <Container className="acontainer">
           <Row>

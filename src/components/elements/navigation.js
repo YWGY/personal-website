@@ -2,13 +2,14 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../sections/experience";
+import moment from "moment";
 
 class Navigation extends React.Component {
   render() {
     return (
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand>Welcome</Navbar.Brand>
-        <Nav className="mr-auto">
+        <Navbar.Brand>{moment().format("MMMM Do YYYY")}</Navbar.Brand>
+        <Nav className="justify-content-end">
           <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="#aboutme">About me</Nav.Link>
           <Nav.Link href="#experience">Experience</Nav.Link>
