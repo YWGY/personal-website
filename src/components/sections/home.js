@@ -10,13 +10,13 @@ function Home() {
         <h1>Hello, my name is Julie Yang</h1>
         {/* div字体这里搞成动态的 */}
         <h2>A Web Developer</h2>
-        <div className="hcontainer buttons">
-          <div className="hcontainer buttons b1">
+        <div className="hcontainer btn">
+          <div className="hcontainer buttons">
             <Button variant="secondary" size="lg" href="#footer" active>
               Contact Me
             </Button>
           </div>
-          <div className="hcontainer buttons b2">
+          <div className="hcontainer buttons">
             <Button variant="secondary" size="lg" href="#project" active>
               My Project
             </Button>

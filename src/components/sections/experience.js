@@ -7,8 +7,8 @@ import Details from "../../details.json";
 function Experience() {
   return (
     <section id="experience">
-      <div className="timeline">
-        <h2>My Experience</h2>
+      <div className="etitle">
+        <h1>My Experience</h1>
         <Container className="econtainer">
           <Row>
             <Col xs>

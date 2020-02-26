@@ -1,21 +1,48 @@
 import React from "react";
-import { Card, ListGroup } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../stylesheets/skill.css";
 
 function Skill() {
   return (
     <section id="skill">
-      <h2>My Skill</h2>
-      <div className="scard">
-        <Card>
-          <Card.Header>Featured</Card.Header>
-          <ListGroup variant="flush">
-            <ListGroup.Item>Cras justo odio</ListGroup.Item>
-            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-          </ListGroup>
-        </Card>
+      <h1>My Skill</h1>
+      <div className="slist">
+        <ul className="sul">
+          <li>
+            <div>
+              <span className="stitle">Advanced</span>
+              <span className="ssubtitle">a</span>
+              <progress className="sprograss" value="100" max="100"></progress>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span className="stitle">Advanced</span>
+              <span className="ssubtitle">b</span>
+              <progress className="sprograss" value="100" max="100"></progress>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span className="stitle">Advanced</span>
+              <span className="ssubtitle">c</span>
+              <progress className="sprograss" value="90" max="100"></progress>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span className="stitle">Advanced</span>
+              <span className="ssubtitle">d</span>
+              <progress className="sprograss" value="80" max="100"></progress>
+            </div>
+          </li>
+          <li>
+            <div>
+              <span className="stitle">Advanced</span>
+              <span className="ssubtitle">f</span>
+              <progress className="sprograss" value="80" max="100"></progress>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   );

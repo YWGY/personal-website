@@ -1,25 +1,29 @@
-h2 {
-  text-align: center;
-}
-
 #aboutme {
+  text-align: left;
   width: 100%;
   height: 100%;
 }
 
-.acontainer {
-  height: 100%;
+.aimg {
+  display: flex;
+  justify-content: center;
+}
+
+.circleimg {
+  border-radius: 120px;
+  width: 240px;
+  height: 240px;
+}
+
+.atitle {
+  padding: 20px;
+  height: 50%;
   position: relative;
   z-index: 1;
   text-align: left;
   color: black;
 }
 
-.intro {
-  padding: 0 50px 0 50px;
-  font: italic 2em Georgia, serif;
-}
-
-.title {
-  padding: 0 50px 0 50px;
+.acontainer {
+  font: italic 1.5em Georgia, serif;
 }

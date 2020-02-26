@@ -5,7 +5,7 @@ import "../stylesheets/project.css";
 function Project() {
   return (
     <section id="project">
-      <h2>My Project</h2>
+      <h1>My Project</h1>
       <ControlledCarousel />
     </section>
   );

@@ -1,12 +1,47 @@
 .content {
-  margin: 10px 0 10px 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   height: 100%;
   text-align: center;
 }
 
-.section {
+.section_homebg {
   padding: 3rem 1.5rem;
   min-height: 100vh;
+  background-image: url(../../assets/sdy.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-position: center;
+  /* background-color: pink; */
+}
+
+.section_aboutmebg {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+  background-color: rgb(131, 182, 241);
+}
+
+.section_experiencebg {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+  background-color: pink;
+}
+
+.section_skillbg {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+  background-color: rgb(255, 249, 168);
+}
+
+.sectionbg_projectbg {
+  padding: 3rem 1.5rem;
+  min-height: 100vh;
+  background-color: rgb(182, 241, 202);
+}
+
+h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
 }

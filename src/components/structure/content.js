@@ -6,23 +6,24 @@ import Project from "../sections/project";
 import Skill from "../sections/skill";
 import "../stylesheets/content.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../assets/myprofile.jpg";
 
 function Content() {
   return (
     <div className="content">
-      <div className="section">
+      <div className="section_homebg">
         <Home />
       </div>
-      <div className="section">
+      <div className="section_aboutmebg">
         <Aboutme />
       </div>
-      <div className="section">
+      <div className="section_experiencebg">
         <Experience />
       </div>
-      <div className="section">
+      <div className="section_skillbg">
         <Skill />
       </div>
-      <div className="section">
+      <div className="sectionbg_projectbg">
         <Project />
       </div>
     </div>
