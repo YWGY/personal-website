@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/experience.css";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Details from "../../details.json";
+import Details from "../../en-US.json";
 
 function Experience() {
   return (

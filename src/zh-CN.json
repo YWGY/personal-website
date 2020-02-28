@@ -1,0 +1,70 @@
+{
+  "aboutme": {
+    "name": "Julie 杨",
+    "intro1": "Experienced full-stack developer, professional skills in front-end and back-end development.",
+    "intro2": "Practical knowledge of web solution architecture, development technologies and tools.",
+    "intro3": "Great verbal communication skills and problem-solving abilities.",
+    "intro4": "Strong organizational and project management skills, attention to detail.",
+    "intro5": "Excellent team player, operate well in a group setting in the workplace to effectively accomplish tasks."
+  },
+  "link": {
+    "email": "weiguiyun.yang@outlook.com",
+    "linkedin": "linkedin.com/in/julie-yang-brisbane"
+  },
+  "experience": {
+    "job1": {
+      "time": "12月, 2019 - 1月, 2019",
+      "location": "澳大利亚, 布里斯班",
+      "company": " DLTx",
+      "position": "初级工程师",
+      "intro": "DLTx是专注于DApps和区块链技术的软件公司。"
+    },
+
+    "job2": {
+      "time": "3月, 2019 - 11月, 2019",
+      "location": "澳大利亚, 布里斯班",
+      "company": "JR Solution",
+      "position": "全栈工程师",
+      "intro": "JR solution 是一家为企业提供全方位IT支持解决方案的IT咨询公司。"
+    },
+    "school1": {
+      "time": "2月, 2017- 11月, 2019",
+      "location": "澳大利亚, 布里斯班",
+      "school": "昆士兰科技大学",
+      "degree": "信息技术硕士 - 计算机科学专业"
+    },
+    "school2": {
+      "time": "11月, 2011-月, 2016 ",
+      "location": "桂林，中国",
+      "school": "广西师范大学",
+      "degree": "管理学学士 - 旅游管理"
+    }
+  },
+  "skill": {
+    "frontend": "JavaScript, React, React-Native, Redux, Redux-Saga, jQuery, Ant Design, Bootstrap, Flexbox, Responsive design.",
+    "backend": "Node.js, C#.Net, MVC framework.",
+    "database": "MySQL, MongoDB.",
+    "management": "Git, Github, Gitlab, Bitbucket, AWS, Heroku, Trello, Jira.",
+    "methodologies": "Agile, Scrum.",
+    "tools": "SAS, Visual Studio, Visual Studio Code.",
+    "others": "HTML5, CSS3, JSON."
+  },
+  "other": {
+    "technique": {
+      "frontend": "前端库/框架",
+      "backend": "后端",
+      "database": "数据库管理",
+      "management": "软件及项目管理",
+      "methodologies": "开发方法",
+      "tools": "工具",
+      "others": "其他"
+    },
+    "nav": {
+      "home": "首页",
+      "aboutme": "关于我",
+      "experience": "我的经历",
+      "skill": "我的技能",
+      "project": "我的项目"
+    }
+  }
+}

@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Caro1 from "../../assets/handyman.PNG";
+import Caro2 from "../../assets/handyman.PNG";
+import Caro3 from "../../assets/handyman.PNG";
+import "../stylesheets/carousel.css";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -12,40 +16,26 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          //   style={"background-color: #343a40"}
-          alt="First slide"
-        />
+        <img className="d-block w-100" src={Caro1} alt="Car1" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3 className="ph3">Handyman Booking Management System</h3>
+          <p className="pp">
+            https://github.com/jr-sky/Booking-Management-System-1
           </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Caro2} alt="Car2" />
+        <Carousel.Caption>
+          <h3 className="ph3">Weather App</h3>
+          <p className="pp">https://github.com/YWGY/weather-app</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img className="d-block w-100" src={Caro3} alt="Car3" />
+        <Carousel.Caption>
+          <h3 className="ph3">Random Language Machine</h3>
+          <p className="pp">need web address</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

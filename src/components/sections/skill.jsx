@@ -1,66 +1,68 @@
 import React from "react";
 import "../stylesheets/skill.css";
-import Details from "../../details.json";
+import Details from "../../en-US.json";
 
 function Skill() {
   return (
     <section id="skill">
-      <h1 className="sh1">My Skill</h1>
+      <table className="sline">
+        <h1 className="sh1">My Skill</h1>
+      </table>
       <div className="scontent">
         <div className="sbox">
           <div className="sbox left">
-            <p>Front-End Libraries/Framework:</p>
+            <span>Front-End Libraries/Framework:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.frontend}</p>
+            <span>{Details.skill.frontend}</span>
           </div>
         </div>
         <div className="sbox">
           <div className="sbox left">
-            <p>Back-End:</p>
+            <span>Back-End:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.backend}</p>
+            <span>{Details.skill.backend}</span>
           </div>
         </div>
         <div className="sbox">
           <div className="sbox left">
-            <p>Database Management:</p>
+            <span>Database Management:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.frontend}</p>
+            <span>{Details.skill.frontend}</span>
           </div>
         </div>
         <div className="sbox">
           <div className="sbox left">
-            <p>Software & Project Management:</p>
+            <span>Software & Project Management:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.management}</p>
+            <span>{Details.skill.management}</span>
           </div>
         </div>
         <div className="sbox">
           <div className="sbox left">
-            <p>Methodologies:</p>
+            <span>Methodologies:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.methodologies}</p>
+            <span>{Details.skill.methodologies}</span>
           </div>
         </div>
         <div className="sbox">
           <div className="sbox left">
-            <p>Tools:</p>
+            <span>Tools:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.tools}</p>
+            <span>{Details.skill.tools}</span>
           </div>
         </div>
-        <div className="sbox">
+        <div className="sbox final">
           <div className="sbox left">
-            <p>Others:</p>
+            <span>Others:</span>
           </div>
           <div className="sbox right">
-            <p>{Details.skill.others}</p>
+            <span>{Details.skill.others}</span>
           </div>
         </div>
       </div>

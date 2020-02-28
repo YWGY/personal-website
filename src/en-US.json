@@ -1,6 +1,6 @@
 {
   "aboutme": {
-    "name": "Weiguiyun Yang",
+    "name": "Julie Yang",
     "intro1": "Experienced full-stack developer, professional skills in front-end and back-end development.",
     "intro2": "Practical knowledge of web solution architecture, development technologies and tools.",
     "intro3": "Great verbal communication skills and problem-solving abilities.",
@@ -48,5 +48,23 @@
     "methodologies": "Agile, Scrum.",
     "tools": "SAS, Visual Studio, Visual Studio Code.",
     "others": "HTML5, CSS3, JSON."
+  },
+  "other": {
+    "technique": {
+      "frontend": "Front-End Libraries/Framework",
+      "backend": "Back-End",
+      "database": "Database Management",
+      "management": "Software & Project Management",
+      "methodologies": "Methodologies",
+      "tools": "Tools",
+      "others": "Others"
+    },
+    "nav": {
+      "home": "Home",
+      "aboutme": "Aboutm Me",
+      "experience": "My Experience",
+      "skill": "My Skill",
+      "project": "My Project"
+    }
   }
 }

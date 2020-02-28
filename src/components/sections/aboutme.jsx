@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheets/aboutme.css";
 import { Row, Col, Container } from "react-bootstrap";
 import imgURL from "../../assets/myprofile.jpg";
-import Details from "../../details.json";
+import Details from "../../en-US.json";
 
 function Aboutme() {
   return (

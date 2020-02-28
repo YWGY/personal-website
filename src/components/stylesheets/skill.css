@@ -1,25 +1,43 @@
 #skill {
   display: block;
   text-align: center;
-  padding: 50px 0 0 0;
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 .sh1 {
   text-align: center;
-  padding: 0 0 10px 0;
-  margin: 0 0 8px 0;
-  border-bottom: 1px solid #343a40;
-  overflow: hidden;
+  padding: 100px 30px 10px 0;
+}
+
+.sline {
+  border: 1px;
+  height: 300px;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-style: none;
+}
+
+.shr {
+  width: 2px;
+  height: 100px;
 }
 
 .sbox {
-  padding: 5px;
+  padding: 5px 5px 5px 20px;
   display: flex;
+  font-size: 16px;
+  transition: 0.2s ease-out;
 }
 
 .sbox .left {
   font-weight: bold;
 }
 
-.sbox .right {
+.sbox .final {
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid #343a40;
+  overflow: hidden;
 }
