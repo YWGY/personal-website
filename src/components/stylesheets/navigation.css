@@ -1,3 +1,26 @@
 .mr-auto {
   margin-left: auto;
 }
+
+#right {
+  display: flex;
+  margin-left: auto;
+}
+
+#right-login {
+  display: block;
+  padding: 0.5rem 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#right-sign {
+  display: block;
+  padding: 0.5rem 0rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#lang {
+  display: block;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}

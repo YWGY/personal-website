@@ -1,55 +1,52 @@
 import React from "react";
-import Swiper from "swiper/dist/js/swiper.js";
-import "swiper/dist/css/swiper.min.css";
+// import "swiper/dist/css/swiper.min.css";
+// import Swiper from "swiper/dist/js/swiper.js";
 import caro1 from "../../assets/handyman.PNG";
 import caro2 from "../../assets/handyman.PNG";
 import caro3 from "../../assets/handyman.PNG";
 import "../stylesheets/carousel.css";
 
-new Swiper(".swiper-container", {
-  loop: true, //循环
-  autoplay: {
-    //滑动后继续播放（不写官方默认暂停）
-    disableOnInteraction: false
-  },
-  pagination: {
-    //分页器
-    el: ".swiper-pagination"
-  }
-});
-
+let Swiper = window.Swiper;
 class Carousel extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      newlist: [caro1, caro2, caro3]
+    };
+  }
+  componentWillUnmount() {
+    if (this.Swiper) {
+      this.Swiper.desdroy();
+    }
+  }
+  componentDidUpdate() {
+    if (this.Swiper) {
+      this.Swiper.slideTo(0, 0);
+      this.Swiper.desdroy();
+      this.Swiper = null;
+    }
+    this.Swiper = new Swiper(this.refs.lun, {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      }
+    });
   }
   render() {
-    this.setState(
-      {
-        list: res.data
-      },
-      () => {
-        new Swiper(".swiper-container", {
-          loop: true,
-          autoplay: {
-            disableOnInteraction: false
-          },
-          pagination: {
-            el: ".swiper-pagination"
-          }
-        });
-      }
-    );
+    const newlist = Swiper;
     return (
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
+      <div>
+        <div className="swiper-container" ref="lun">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide" data-id="0">
+              {newlist}
+            </div>
+          </div>
+          <div id="PgFather">
+            <div className="swiper-pagination" id="body-left-pagination"></div>
+          </div>
         </div>
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-scrollbar"></div>
       </div>
     );
   }
