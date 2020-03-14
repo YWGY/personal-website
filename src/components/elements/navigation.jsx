@@ -3,14 +3,9 @@ import { Nav, Navbar } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../sections/experience";
 import moment from "moment";
-import { BrowserRouter as Link, Router } from "react-router-dom";
 import "../stylesheets/navigation.css";
 
 class Navigation extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
   render() {
     return (
       <Navbar bg="dark" variant="dark">
@@ -22,17 +17,6 @@ class Navigation extends React.Component {
           <Nav.Link href="#skill">Skill</Nav.Link>
           <Nav.Link href="#project">Project</Nav.Link>
         </Nav>
-        <div id="right">
-          <Nav.Link
-            href="#login"
-            onClick={() => {
-              window.location.href = "/login";
-            }}
-          >
-            Login in
-          </Nav.Link>
-          <Nav.Link id="lang">EN |中文</Nav.Link>
-        </div>
       </Navbar>
     );
   }
